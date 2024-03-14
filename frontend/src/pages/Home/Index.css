@@ -1,0 +1,7 @@
+.index-page{
+    display: flex;
+    gap: 20px;
+    background-color: aliceblue;
+    width: 100%;
+    min-height: 100vh;
+}

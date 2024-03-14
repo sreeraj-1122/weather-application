@@ -1,0 +1,99 @@
+.home-section {
+    padding: 20px;
+    /* width: 100%; */
+    min-height: 100vh;
+    position: relative;
+}
+
+.home-section .this-week h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(57, 56, 56);
+    margin-bottom: 10px;
+}
+.this-week .save-items{
+    position: absolute;
+    right: 60px;
+    top: 25px;
+    font-size: 30px;
+    color: rgb(3, 118, 101);
+    cursor: pointer;
+}
+.this-week .week-section {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+.week-section .week-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    /* border: 1px solid rgb(126, 126, 126); */
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    width: 140px;
+    height: 180px;
+}
+.week-card .day-name{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(85, 84, 84);
+}
+.week-card img{
+    width: 100px;
+}
+.week-card .day-value{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(85, 84, 84);
+    text-align: center;
+
+}
+.today-highlight{
+    margin-top: 25px;
+}
+.today-highlight h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(57, 56, 56);
+    margin-bottom: 30px;
+}
+.today-highlight .highlights-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.highlights-section .highlights-card{
+    border-radius: 10px;
+    background-color: white;
+    height: 180px;
+    /* border: 1px solid gray; */
+    width: 300px;
+    padding: 10px;
+    
+}
+
+.highlights-card h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(131, 127, 127);
+    padding-left: 5px;
+
+}
+.highlights-card .today-value{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(18, 18, 18);
+    font-weight: 600;
+    margin-top: 20px;
+    
+}
+.highlights-card .unit{
+    margin-top: 20px;
+    color: rgb(55, 53, 53);
+    font-weight: 600;
+    padding-left: 5px;
+}

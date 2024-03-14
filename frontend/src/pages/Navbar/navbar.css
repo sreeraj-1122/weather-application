@@ -1,0 +1,17 @@
+.navbar-section{
+    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.navbar-section .save-items{
+    position: absolute;
+    right: 60px;
+    top: 22px;
+    font-size: 30px;
+    color: rgb(81, 246, 222);
+    cursor: pointer;
+}
+.input-search{
+    width: 500px;
+}

@@ -1,0 +1,60 @@
+.sidebar-section {
+    width: 350px;
+    padding: 20px;
+    padding: 30px 20px;
+    background-color: rgb(4, 103, 83);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.sidebar-section .weather-img {
+    display: flex;
+    justify-content: center;
+    /* width: 250px; */
+
+}
+
+.weather-degree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.weather-degree .value {
+    font-size: 80px;
+    font-weight: 600;
+    color: white;
+}
+
+.weather-degree .date {
+    font-size: 20px;
+    font-weight: 500;
+    color: wheat;
+}
+
+.sidebar-section .location {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 20px;
+
+}
+
+.location span {
+    color: rgb(236, 236, 164);
+}
+.location h3{
+    color: white;
+    font-weight: 500;
+}
+/* .logout-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+} */
