@@ -20,5 +20,5 @@ note: Please allow location.Otherwise current location not get.
 2)Register page
     ![register page](https://github.com/sreeraj-1122/weather-application/assets/85874548/b88733f5-a6db-4acc-96c8-a092ab1257e1)
 3)Login
-    ![login page](https://github.com/sreeraj-1122/weather-application/assets/85874548/2623178a-0bc0-4034-acec-5e622bfea581)
+![login](https://github.com/sreeraj-1122/weather-application/assets/85874548/6b092fc6-85d5-48d8-9b46-013a83e5e6f2)
 
