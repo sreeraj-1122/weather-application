@@ -14,6 +14,9 @@ backend run command:
 
 
 note: Please allow location.Otherwise current location not get. 
+  Check database link backend ->config -> db.js
+      
+  Check SECRET KEY while login backend ->controllers ->userLogin.js
 
 1)Home page
     ![home page](https://github.com/sreeraj-1122/weather-application/assets/85874548/dcfe0803-f4b1-4602-8b4c-95f984f63471)
